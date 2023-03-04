@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
 
 :root {
-    ---font1: Verdana, Geneva, Tahoma, sans-serif;
+    ---font1: Verdana, Tahoma, sans-serif;
     ---font2: 'Passion One', cursive;
     ---font3: 'Sriracha', cursive;
 }
@@ -67,18 +67,14 @@ section.normal {
 
 section > p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+
 }
 
 section.normal > p {
     margin: 10px;
     padding: 10px;
-    text-align: left;
     width: 80vh;
-    max-width: 180vw
+    max-width: 70vw
 }
 
 section.imagem > p {
@@ -99,13 +95,13 @@ section.imagem {
 }
 
 section#img01 {
-    background-image: url(../imagens/background001.jpg);
+    background-image: url(imagens/background001.jpg);
     background-position: right center;
 
 }
 
 section#img02 {
-    background-image: url(../imagens/background002.jpg);
+    background-image: url(imagens/background002.jpg);
     background-position: right center;
 }
 
